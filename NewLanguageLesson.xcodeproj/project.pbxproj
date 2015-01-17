@@ -12,7 +12,9 @@
 		C6826E411A6A11DD002F2E5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6826E401A6A11DD002F2E5A /* ViewController.m */; };
 		C6826E431A6A11DD002F2E5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6826E421A6A11DD002F2E5A /* Images.xcassets */; };
 		C6826E461A6A11DD002F2E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6826E441A6A11DD002F2E5A /* Main.storyboard */; };
-		C6826E521A6A11DD002F2E5A /* NewLanguageLessonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6826E511A6A11DD002F2E5A /* NewLanguageLessonTests.m */; };
+		C6826E5C1A6A1209002F2E5A /* StringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6826E5B1A6A1209002F2E5A /* StringTests.m */; };
+		C6826E5E1A6A121A002F2E5A /* ArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6826E5D1A6A121A002F2E5A /* ArrayTests.m */; };
+		C6826E601A6A1251002F2E5A /* DictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6826E5F1A6A1251002F2E5A /* DictionaryTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,9 @@
 		C6826E451A6A11DD002F2E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6826E4B1A6A11DD002F2E5A /* NewLanguageLessonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewLanguageLessonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6826E501A6A11DD002F2E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6826E511A6A11DD002F2E5A /* NewLanguageLessonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewLanguageLessonTests.m; sourceTree = "<group>"; };
+		C6826E5B1A6A1209002F2E5A /* StringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringTests.m; sourceTree = "<group>"; };
+		C6826E5D1A6A121A002F2E5A /* ArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayTests.m; sourceTree = "<group>"; };
+		C6826E5F1A6A1251002F2E5A /* DictionaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 		C6826E4E1A6A11DD002F2E5A /* NewLanguageLessonTests */ = {
 			isa = PBXGroup;
 			children = (
-				C6826E511A6A11DD002F2E5A /* NewLanguageLessonTests.m */,
+				C6826E5B1A6A1209002F2E5A /* StringTests.m */,
+				C6826E5D1A6A121A002F2E5A /* ArrayTests.m */,
+				C6826E5F1A6A1251002F2E5A /* DictionaryTests.m */,
 				C6826E4F1A6A11DD002F2E5A /* Supporting Files */,
 			);
 			path = NewLanguageLessonTests;
@@ -225,7 +231,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6826E521A6A11DD002F2E5A /* NewLanguageLessonTests.m in Sources */,
+				C6826E601A6A1251002F2E5A /* DictionaryTests.m in Sources */,
+				C6826E5C1A6A1209002F2E5A /* StringTests.m in Sources */,
+				C6826E5E1A6A121A002F2E5A /* ArrayTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
