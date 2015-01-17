@@ -18,13 +18,13 @@
 
 -(NSDictionary*)informationDictionary
 {
-    // TODO: Implement
+    // TODO: Make and return any dictionary
     return nil;
 }
 
 -(NSUInteger)numberOfEntriesInDictionary:(NSDictionary*)input
 {
-    // TODO: Implement
+    // TODO: Find a way to count entries in a dictionary
     return 0;
 }
 
