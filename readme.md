@@ -1,0 +1,2 @@
+- Download the test files in this repo.
+- Start a new Xcode project.
