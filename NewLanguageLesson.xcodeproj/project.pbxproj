@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C6826E3C1A6A11DD002F2E5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6826E3B1A6A11DD002F2E5A /* AppDelegate.m */; };
 		C6826E3E1A6A11DD002F2E5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6826E3D1A6A11DD002F2E5A /* main.m */; };
 		C6826E411A6A11DD002F2E5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6826E401A6A11DD002F2E5A /* ViewController.m */; };
 		C6826E431A6A11DD002F2E5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6826E421A6A11DD002F2E5A /* Images.xcassets */; };
@@ -15,6 +14,7 @@
 		C6826E5C1A6A1209002F2E5A /* StringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6826E5B1A6A1209002F2E5A /* StringTests.m */; };
 		C6826E5E1A6A121A002F2E5A /* ArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6826E5D1A6A121A002F2E5A /* ArrayTests.m */; };
 		C6826E601A6A1251002F2E5A /* DictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6826E5F1A6A1251002F2E5A /* DictionaryTests.m */; };
+		C6826E661A6A3554002F2E5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6826E651A6A3554002F2E5A /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,8 +30,6 @@
 /* Begin PBXFileReference section */
 		C6826E351A6A11DD002F2E5A /* NewLanguageLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewLanguageLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6826E391A6A11DD002F2E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6826E3A1A6A11DD002F2E5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C6826E3B1A6A11DD002F2E5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C6826E3D1A6A11DD002F2E5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6826E3F1A6A11DD002F2E5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C6826E401A6A11DD002F2E5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -42,6 +40,8 @@
 		C6826E5B1A6A1209002F2E5A /* StringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringTests.m; sourceTree = "<group>"; };
 		C6826E5D1A6A121A002F2E5A /* ArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayTests.m; sourceTree = "<group>"; };
 		C6826E5F1A6A1251002F2E5A /* DictionaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryTests.m; sourceTree = "<group>"; };
+		C6826E641A6A3554002F2E5A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6826E651A6A3554002F2E5A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 		C6826E371A6A11DD002F2E5A /* NewLanguageLesson */ = {
 			isa = PBXGroup;
 			children = (
-				C6826E3A1A6A11DD002F2E5A /* AppDelegate.h */,
-				C6826E3B1A6A11DD002F2E5A /* AppDelegate.m */,
+				C6826E641A6A3554002F2E5A /* AppDelegate.h */,
+				C6826E651A6A3554002F2E5A /* AppDelegate.m */,
 				C6826E3F1A6A11DD002F2E5A /* ViewController.h */,
 				C6826E401A6A11DD002F2E5A /* ViewController.m */,
 				C6826E421A6A11DD002F2E5A /* Images.xcassets */,
@@ -221,9 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6826E661A6A3554002F2E5A /* AppDelegate.m in Sources */,
 				C6826E411A6A11DD002F2E5A /* ViewController.m in Sources */,
 				C6826E3E1A6A11DD002F2E5A /* main.m in Sources */,
-				C6826E3C1A6A11DD002F2E5A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +412,7 @@
 				C6826E571A6A11DD002F2E5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6826E581A6A11DD002F2E5A /* Build configuration list for PBXNativeTarget "NewLanguageLessonTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +421,7 @@
 				C6826E5A1A6A11DD002F2E5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
