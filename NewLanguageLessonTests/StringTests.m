@@ -42,7 +42,7 @@
     return NO;
 }
 
--(BOOL)string:(NSString*)whole endsWith:(NSString*)prefix
+-(BOOL)string:(NSString*)whole endsWith:(NSString*)suffix
 {
     // TODO: Confirm that a suffix exists
     return NO;
